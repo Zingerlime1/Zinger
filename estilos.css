@@ -1,0 +1,147 @@
+/* Said Martinez Martinez 625*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:url(Imagenes/fondo.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#principal{
+    width: 1400px;
+    height:1800px;
+    border: 1px solid #000;
+    margin:auto;
+    background: #00357A;
+}
+header{
+    width: 1400px;
+    height: 100px;
+    border: 1px solid #000;
+    background: #00357A;
+}
+#logo{
+    width: 500px;
+    height: 100px;
+    border: 1px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+.menu{
+    width: 750px;
+    height: 40px;
+    border: 1px solid #00357A;
+    float: right;
+    margin-top: 40px;
+    background:#00357A;
+}
+.menu ul{}
+.menu ul li{
+    list-style: none;
+    float: right;
+}
+.menu ul li a{
+    text-orientation: none;
+    padding: 20px 4px;
+    border: 0px solid#00357A;
+    color: white;
+}
+#slide{
+    margin-top: 10px;
+    width: 1400px;
+    height: 250px;
+}
+#categoria{
+    width: 1400px;
+    height: auto;overflow:hidden;
+    border:0px solid;
+    margin-top: 10px;
+    background: #00357A;
+}
+.uno{
+    width: 250px;
+    height: 910px;overflow: hidden;
+    border: 1px solid #00357A;
+    float: left;
+    padding: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background:#4A97FF;
+    text-align:center;
+}
+.leer-mas{
+     text-decoration: none;
+     border:2px solid#00357A;
+     padding: 5px 5px 5px 5px;
+     margin:5px;
+     margin-top: 5px;
+}
+.leer-mas:hover{
+      background:#00357A;
+      color:#fff;
+      transition:background 1s, color 1s;
+}
+.container{
+  margin: auto;
+  width: 800px;
+  padding: 30px;
+}
+ul.slider{
+  position: relative;
+  width: 800px;
+  height: 370px;
+}
+
+ul.slider li {
+    list-style: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+ul.slider li img{
+  width:800px;
+  height: 370px;
+  object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target {
+    opacity: 1; 
+}
+.menu2{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu2 li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu2 li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: #4A97FF;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+footer{
+    background:#00357A;
+    text-align: center;
+    height: 20px;
+    line-height:20px;
+    color: white;
+}
